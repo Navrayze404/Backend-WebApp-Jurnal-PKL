@@ -1,1 +1,1 @@
-<h6>Setup</h6>
+<h1>Setup</h1>
