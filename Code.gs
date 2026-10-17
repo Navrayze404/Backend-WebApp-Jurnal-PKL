@@ -300,7 +300,7 @@ function buildSortKeyFromParts(dateInfo, jamMenit) {
  * Menyusun ulang isi rekap sesuai format yang diminta dan mengelompokkan entry per hari.
  */
 function buildRecapContent(entries, info) {
-  const separator = '═══════════════════════════════════════';
+  const separator = '═══════';
   const sortedEntries = entries.slice().sort(function(a, b) {
     return a.sortKey - b.sortKey;
   });
